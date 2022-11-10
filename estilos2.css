@@ -1,0 +1,415 @@
+*{
+    box-sizing: border-box;
+        margin: 0;
+        padding: 0;   }
+body {
+    height: 100%;
+    background-color: #A0A0A0;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Roboto; 
+    src: url(/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(/Roboto-Black.ttf);
+}
+
+.Menu{
+    background-color: #304A67;}
+
+  /*botones menú*/  
+.button {
+        background-color:#036b5a;
+        border-radius:28px;
+        display:flex;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Roboto;
+        font-size:20px;
+        padding:6px 14px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #a6d8da;}
+.enlaces{
+    background-color: #304A67;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;}
+
+.logo{
+    background-color: #A6D8DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+
+}
+p{
+    font-size: Roboto;
+}
+.logo_logotipo{
+    width: 130px;
+    height: 130px;}
+
+.banner{
+    display: flex;
+}
+
+.Biografia{
+    display: flex;
+}
+
+.nosthalgia{
+    display: flex;
+}
+
+.texto-banner{
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: RobotoBold;
+}
+.texto-banner2{
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: RobotoBold;
+}
+
+.bannerimagen{
+    width: 100%;
+    height: 280px;
+}
+
+.nostalgiafondo{
+    width: 100%;
+    height: 620px;
+    opacity: 0.6;
+
+}
+
+.andreinfondo{
+    display: flex;
+    width: 100%;
+    height: 620px;
+    opacity: 0.6;
+}
+/* SECCIÓN BIOGRAFÍA */
+
+
+.quienes{
+    position: absolute;
+    top: 550px;
+    right: 580px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: RobotoBold;
+}
+
+.fotoperfil{
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    height: 200px;
+    border: solid #036b5a;
+}
+
+.biografia1 p{ 
+    position: absolute;
+    top: 640px;
+    left: 590px;
+    color: #ffffff;
+font-family: RobotoBold;
+font-size: 25px;
+}
+
+.biografia2{
+    width: 500px;
+    position: absolute;
+    top: 720px;
+    right: 170px;
+    color: #ffffff;
+font-family: Roboto;
+font-size: 25px;   
+}
+
+.biografia3{
+    width: 500px;
+    position: absolute;
+    top: 870px;
+    right: 170px;
+    color: #ffffff;
+font-family: Roboto;
+font-size: 25px;   
+}
+
+.biografia4{
+    width: 500px;
+    position: absolute;
+    top: 870px;
+    right: 720px;
+    color: #ffffff;
+font-family: Roboto;
+font-size: 25px;   
+}
+
+.filmografia{
+    position: absolute;
+    top: 1170px;
+    right: 570px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: RobotoBold;
+}
+
+.nosthalgia{
+    width: 100%;
+    height: 700px;
+    opacity: 0.6;
+}
+
+.fotograma2{
+    width: 100%;
+    height: 700px;
+    opacity: 0.7;
+}
+
+/* caratulas de filmografia */
+
+.andreirublev{
+    position: absolute;
+    width: 470px;
+    top: 1230px;
+    right: 500px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: RobotoBold;}
+.caratula1{
+    position: absolute;
+    height: 180px;
+    top: 1230px;
+    right: 1000px;
+}
+
+.andreirublev-parrafo{
+    color: black;
+}
+
+.lainfanciadeivan{
+    position: absolute;
+    width: 470px;
+    top: 1450px;
+    right: 494px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: RobotoBold;}
+
+.caratula2{
+    position: absolute;
+    height: 175px;
+    top: 8px;
+    right: 500px;
+    }
+
+.Ivan-parrafo{
+    color: black;
+}
+
+.stalker{
+    position: absolute;
+    width: 470px;
+    top: 1670px;
+    right: 490px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: RobotoBold;}
+.caratula3{
+    position: absolute;
+    height: 190px;
+    top: 12px;
+    right: 502px;
+}
+.stalker-parrafo{
+    color: black;}
+
+.solaris{
+        position: absolute;
+        width: 470px;
+        top: 1920px;
+        right: 490px;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: RobotoBold;}
+.caratula4{
+        position: absolute;
+        height: 190px;
+        top: 5px;
+        right: 500px;
+    }
+    
+.solaris-parrafo{
+        color: black;
+    }
+
+    .nostalgia{
+        position: absolute;
+        width: 460px;
+        top: 2190px;
+        right: 500px;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: RobotoBold;}
+.caratula5{
+        position: absolute;
+        height: 190px;
+        top: -10px;
+        right: 485px;
+    }
+    
+.nostalgia-parrafo{
+        color: black;
+    }
+/*botones trailer*/
+.buttontrailer{
+    background-color:#036b5a;
+     border-radius: 2px;
+    display:flex;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:20px;
+    padding:6px 14px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #a6d8da;
+}
+.trailers{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 1200px;
+    width: 2100px;
+    height: 1250px;}
+
+    /* galeria */
+    .galeriatexto{
+        position: absolute;
+        top: 2570px;
+        right: 620px;
+        font-size: 27px;
+        color: #ffffff;
+        font-family: RobotoBold;
+    }
+.comillas1{
+    position: absolute;
+        top: 2610px;
+        right: 1180px;
+        font-size: 100px;
+        color: #ff0000;
+}
+.frase1comillas{
+    width: 280px;
+    position: absolute;
+    top: 2650px;
+    right: 870px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: Roboto;
+}
+.comillas2{
+    position: absolute;
+        top: 2685px;
+        right: 880px;
+        font-size: 100px;
+        color: #ff0000;
+}
+
+
+.comillas3{
+    position: absolute;
+        top: 2960px;
+        right: 405px;
+        font-size: 100px;
+        color: #ff0000;}
+
+        .comillas4{
+            position: absolute;
+                top: 3065px;
+                right: 59px;
+                font-size: 100px;
+                color: #ff0000;
+        }
+
+
+    .frase2comillas{
+        width: 290px;
+        position: absolute;
+        top: 3000px;
+        right: 95px;
+        font-size: 22px;
+        color: #ffffff;
+    font-family: Roboto;
+}
+        
+
+
+.galeria2 {
+    height: 250px;
+    top: 2750px;
+    width: 350px;
+    left: 430px;
+    margin:1em auto;
+    border: 3px solid #036b5a;
+    position: absolute;  
+  }
+  
+  .galeria2 img {
+    position: absolute;
+    height: 245px;
+    width: 345px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .galeria2 input[type=radio] {
+    position: relative;
+    bottom: -280px;
+    left: 140px;
+  }
+  
+  .galeria2 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .galeria2 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria2 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria2 input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
+  
+  .galeria2 input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+    opacity: 1;
+  }
+
+  .galeria2 input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+    opacity: 1;
+  }
+  
